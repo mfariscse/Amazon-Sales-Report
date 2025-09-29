@@ -1,4 +1,4 @@
-#Amazon Dashboard Project
+Amazon Dashboard Project
 1. Short Description/purpose
 
 This repository hosts a Power BI dashboard designed to analyze a dataset of 1351 Amazon products. The dashboard provides actionable insights into product performance, discount impacts, profitability, and customer feedback, serving as a tool for e-commerce decision-making with interactive visuals and a custom theme.
