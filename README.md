@@ -1,5 +1,6 @@
 # Amazon-Sales-Report
 Overview
+
 This repository contains a Power BI dashboard designed to analyze an Amazon product dataset with 1351 products. The dashboard provides insights into product performance, discount impact, profitability, and customer feedback, built step-by-step to support e-commerce decision-making. It features interactive visuals, custom measures, and a cohesive theme, making it a powerful tool for data exploration.
 Key Features
 
