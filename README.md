@@ -1,22 +1,24 @@
-# Amazon-Sales-Report
-Overview
+1. Project Title
+Amazon Dashboard Project
+2. Short Description/purpose
+This repository hosts a Power BI dashboard designed to analyze a dataset of 1351 Amazon products. The dashboard provides actionable insights into product performance, discount impacts, profitability, and customer feedback, serving as a tool for e-commerce decision-making with interactive visuals and a custom theme.
+3. Tech Stack
 
-This repository contains a Power BI dashboard designed to analyze an Amazon product dataset with 1351 products. The dashboard provides insights into product performance, discount impact, profitability, and customer feedback, built step-by-step to support e-commerce decision-making. It features interactive visuals, custom measures, and a cohesive theme, making it a powerful tool for data exploration.
-Key Features
+Power BI Desktop: For building and visualizing the dashboard.
+DAX: For creating custom measures (e.g., Avg Profit Margin, Overall Sentiment %).
+Power Query: For data transformation and calculated columns (e.g., Sentiment Score Column).
+
+4. Dataset
+
+Source: Pre-processed Amazon product dataset embedded in the .pbix file.
+Details: Includes 1351 products with fields like actual_price_clean, discounted_price_clean, rating_clean, review_title, review_content, and more.
+Notes: Update data sources in Power Query if using a different dataset; ensure column names match.
+
+5. Features/Highlights
 
 Pages:
 
-Main Page: A navigation hub with buttons to access Summary, Detailed Analysis, and Customer Feedback pages.
-Summary: Displays KPIs (e.g., Average Price, Total Products, Profit Margin) and high-level category insights.
-Detailed Analysis: Offers deep dives with price comparisons, rating vs. price scatter plots, profit margin trends, and a product performance table.
-Customer Feedback: Visualizes review sentiment via Word Cloud, Stacked Bar Chart, Gauge, and a detailed review table.
-
-
-Customizations:
-
-Profit Margin calculated with a 35% cost assumption.
-Sentiment analysis based on review keywords.
-
-
-Interactivity: Synced slicers and navigation buttons across all pages.
-Dataset: Analyzes 1351 Amazon products with metrics like price, discount, ratings, and reviews.
+Main Page: Navigation hub with buttons for Summary, Detailed Analysis, and Customer Feedback.
+Summary: KPIs (e.g., Average Price, Profit Margin) and category insights.
+Detailed Analysis: Price comparisons, rating vs. price scatter plots, profit trends, and product table.
+Customer Feedback: Word Cloud, Stacked Bar for sentiment, Gauge for overall sentiment, and review table.
